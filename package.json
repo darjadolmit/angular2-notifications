@@ -1,6 +1,9 @@
 {
   "name": "angular2-notifications",
   "typings": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "version": "12.0.0",
   "scripts": {
     "build": "ng run angular2-notifications:build:production",
