@@ -1,10 +1,13 @@
 {
   "name": "angular2-notifications",
-  "typings": "angular2-notifications.d.ts",
+  "version": "12.0.0",
   "files": [
     "dist/**/*"
   ],
-  "version": "12.0.0",
+  "main": "bundles/angular2-notifications.umd.js",
+  "module": "fesm2015/angular2-notifications.js",
+  "fesm2015": "fesm2015/angular2-notifications.js",
+  "typings": "angular2-notifications.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/username/repo"
@@ -35,10 +38,7 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "main": "bundles/angular2-notifications.umd.js",
-  "module": "fesm2015/angular2-notifications.js",
   "es2015": "fesm2015/angular2-notifications.js",
   "esm2015": "esm2015/angular2-notifications.js",
-  "fesm2015": "fesm2015/angular2-notifications.js",
   "sideEffects": false
 }

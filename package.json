@@ -1,10 +1,13 @@
 {
   "name": "angular2-notifications",
-  "typings": "./dist/index.d.ts",
+  "version": "12.0.0",
   "files": [
     "dist/**/*"
   ],
-  "version": "12.0.0",
+  "main": "dist/angular2-notifications.d.ts",
+  "module": "dist/angular2-notifications/fesm2015/angular2-notifications.js",
+  "fesm2015": "dist/angular2-notifications/fesm2015/angular2-notifications.js",
+  "typings": "dist/angular2-notifications.d.ts",
   "scripts": {
     "build": "ng run angular2-notifications:build:production",
     "docs": "npm run docs:build",
@@ -68,7 +71,7 @@
     "eslint-plugin-prefer-arrow": "1.2.3",
     "jasmine-core": "~3.8.0",
     "jasmine-spec-reporter": "~7.0.0",
-    "karma": "~6.3.4 ",
+    "karma": "~6.3.16 ",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "~4.0.1",
