@@ -4,10 +4,10 @@
   "files": [
     "dist/**/*"
   ],
-  "main": "dist/angular2-notifications.d.ts",
+  "main": "dist/angular2-notifications/angular2-notifications.d.ts",
   "module": "dist/angular2-notifications/fesm2015/angular2-notifications.js",
   "fesm2015": "dist/angular2-notifications/fesm2015/angular2-notifications.js",
-  "typings": "dist/angular2-notifications.d.ts",
+  "typings": "dist/angular2-notifications/angular2-notifications.d.ts",
   "scripts": {
     "build": "ng run angular2-notifications:build:production",
     "docs": "npm run docs:build",
